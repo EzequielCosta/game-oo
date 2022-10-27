@@ -1,6 +1,4 @@
-import { Personagem } from "../abstracts/Personagem";
 import { JaEliminadoException } from "../exceptions/JaEliminadoException";
-import { Atingivel } from "../interfaces/Atingivel";
 import { Defensivel } from "../interfaces/Defensivel";
 
 export class Guerreiro  implements Defensivel{
